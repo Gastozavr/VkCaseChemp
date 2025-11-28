@@ -155,7 +155,7 @@ $$
 Где 
 $$
 \beta_V + \beta_D + \beta_N = 1
-$$.
+$$
 
 ---
 
@@ -164,11 +164,12 @@ $$.
 $$
 \text{Score}_{\text{Views}} =
 \frac{
-posts\_views\_30d + clips\_views\_30d
+\text{postsViews30d} + \text{clipsViews30d}
 }{
-avgCategoryViews + \epsilon
+\text{avgCategoryViews} + \epsilon
 }
 $$
+
 
 
 
