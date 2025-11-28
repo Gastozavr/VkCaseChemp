@@ -153,9 +153,9 @@ B_{\text{Trend}} =
 $$
 
 Где 
-$$
-\beta_V + \beta_D + \beta_N = 1
-$$
+
+$\beta_V + \beta_D + \beta_N = 1$.
+
 ---
 
 ## 5.1 $\text{Score}_{\text{Views}}$ (актуальность автора по просмотрам)
