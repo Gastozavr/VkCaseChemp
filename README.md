@@ -48,10 +48,10 @@ $$
 $$
 \text{Предпочтение категории} =
 \frac{
-\text{Средний Clips Reach}
+\text{AvgClipsReach}
 }{
-\text{Средний Clips Reach} +
-\text{Средний Posts Reach}
+\text{AvgClipsReach} +
+\text{AvgPostsReach}
 }
 $$
 
@@ -65,7 +65,6 @@ $$
 \epsilon
 }
 $$
-
 ---
 
 ## 2. $W_{\text{Quality}}$ (вес качества автора)
