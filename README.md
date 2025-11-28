@@ -56,11 +56,12 @@ $$
 $$
 \text{Focus}_{\text{author}} =
 \frac{
-\text{clips\_reach\_30d}
+\text{clipsReach30d}
 }{
-\text{clips\_reach\_30d} + \text{posts\_reach\_30d} + \epsilon
+\text{clipsReach30d} + \text{postsReach30d} + \epsilon
 }
-$$ 
+$$
+
 $\text{Pref}_{\text{category}}$ — «Предпочтение категории»,  
 $\text{Focus}_{\text{author}}$ — «Фокус автора».
 ---
