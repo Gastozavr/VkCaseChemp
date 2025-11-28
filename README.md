@@ -164,11 +164,12 @@ $$.
 $$
 \text{Score}_{\text{Views}} =
 \frac{
-\text{posts\_views\_30d} + \text{clips\_views\_30d}
+posts\_views\_30d + clips\_views\_30d
 }{
-\text{AvgCategoryViews} + \epsilon
+avgCategoryViews + \epsilon
 }
 $$
+
 
 
 Если автор выше среднего по просмотрам — множитель > 1.
