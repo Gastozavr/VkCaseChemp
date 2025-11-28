@@ -63,7 +63,9 @@ $$
 $$
 
 $\text{Pref}_{\text{category}}$ — «Предпочтение категории»,  
+
 $\text{Focus}_{\text{author}}$ — «Фокус автора».
+
 ---
 
 ## 2. $W_{\text{Quality}}$ (вес качества автора)
