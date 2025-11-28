@@ -46,25 +46,23 @@ $$
 Где:
 
 $$
-\text{Предпочтение категории} =
+\text{Pref}_{\text{category}} =
 \frac{
 \text{AvgClipsReach}
 }{
-\text{AvgClipsReach} +
-\text{AvgPostsReach}
-}
-$$
+\text{AvgClipsReach} + \text{AvgPostsReach}
+}$$
 
 $$
-\text{Фокус автора} =
+\text{Focus}_{\text{author}} =
 \frac{
 \text{clips\_reach\_30d}
 }{
-\text{clips\_reach\_30d} +
-\text{posts\_reach\_30d} +
-\epsilon
+\text{clips\_reach\_30d} + \text{posts\_reach\_30d} + \epsilon
 }
-$$
+$$ 
+$\text{Pref}_{\text{category}}$ — «Предпочтение категории»,  
+$\text{Focus}_{\text{author}}$ — «Фокус автора».
 ---
 
 ## 2. $W_{\text{Quality}}$ (вес качества автора)
@@ -165,9 +163,10 @@ $$
 \frac{
 \text{posts\_views\_30d} + \text{clips\_views\_30d}
 }{
-\text{Средние просмотры по категории} + \epsilon
+\text{AvgCategoryViews} + \epsilon
 }
 $$
+
 
 Если автор выше среднего по просмотрам — множитель > 1.
 
@@ -181,12 +180,13 @@ $$
 \text{Score}_{\text{Difficulty}} =
 \left(
 \frac{
-\text{ER}_{\text{Global\_Avg}}
+ER_{\text{GlobalAvg}}
 }{
-\text{ER}_{\text{Avg\_Category}} + \epsilon
+ER_{\text{AvgCategory}} + \epsilon
 }
 \right)^{k_{\text{difficulty}}}
 $$
+
 
 Если ER в категории низкий, категория считается трудной — множитель растёт (>1).
 
