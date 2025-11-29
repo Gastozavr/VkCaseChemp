@@ -24,6 +24,7 @@ W_{\text{Relevance}} =
 (k_C \cdot \text{Match}_{\text{Cat}}) +
 (k_F \cdot \text{Match}_{\text{Format}})
 $$
+
 Где
 
 $k_C$ и $k_F$ — настраиваемые веса, причём $k_C+ k_F = 1$.
