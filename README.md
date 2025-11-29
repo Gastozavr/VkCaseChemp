@@ -24,6 +24,9 @@ W_{\text{Relevance}} =
 (k_C \cdot \text{Match}_{\text{Cat}}) +
 (k_F \cdot \text{Match}_{\text{Format}})
 $$
+Где
+
+$k_C$ и $k_F$ — настраиваемые веса, причём $k_C+ k_F = 1$.
 
 
 **Параметры:**
@@ -77,6 +80,9 @@ W_{\text{Quality}} =
 (k_E \cdot \text{Score}_{\text{Expert}})
 $$
 
+Где 
+
+$k_S$, $k_O$, $k_E$— настраиваемые веса, причём $k_S + k_O + k_E = 1$
 
 ### ScoreSegment (сегмент автора по качеству аудитории)
 
@@ -154,7 +160,7 @@ $$
 
 Где 
 
-$\beta_V + \beta_D + \beta_N = 1$.
+$\beta_V$, $\beta_D$, $\beta_N$ — настраиваемые веса, причём $\beta_V + \beta_D + \beta_N = 1$.
 
 ---
 
